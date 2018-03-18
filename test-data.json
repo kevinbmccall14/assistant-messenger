@@ -1,0 +1,40 @@
+{
+  "id": "56bfe579-98e1-4923-ae83-f9aaba0796a8",
+  "timestamp": "2018-03-12T04:38:29.626Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "add contact Kevin McCall +15309211468",
+    "speech": "",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "phone-number": "+15309211468",
+      "given-name": "Kevin",
+      "last-name": "Mccall"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "6b7a2103-b579-47b5-a1e1-1ed4b95e737e",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "add-contact"
+    },
+    "fulfillment": {
+      "speech": "Kevin Mccall has been added to contacts",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "added Kevin Mccall to contacts"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "edae2483-8a40-41c7-8c08-16476be6bcac"
+}
