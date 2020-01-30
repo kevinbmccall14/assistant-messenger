@@ -1,0 +1,168 @@
+{
+  "id": "dc9149cd-5b19-43ee-8385-be27621bfc9c-426bc00a",
+  "lang": "en",
+  "sessionId": "ABwppHETyoC4b-QahkTzMK8BMIIahDJrfgJCF119s3utR_issKMsSQuZSDANlgJXPyg2yL82fNbZPzM",
+  "timestamp": "2020-01-30T19:57:37.484Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "add johnny 5309121648",
+    "action": "add-contact",
+    "actionIncomplete": false,
+    "score": 0.6666666,
+    "parameters": {
+      "given-name": "johnny",
+      "phone-number": "5309211468",
+      "last-name": ""
+    },
+    "contexts": [
+      {
+        "name": "actions_capability_screen_output",
+        "lifespan": 0,
+        "parameters": {
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      },
+      {
+        "name": "actions_capability_media_response_audio",
+        "lifespan": 0,
+        "parameters": {
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      },
+      {
+        "name": "actions_capability_account_linking",
+        "lifespan": 0,
+        "parameters": {
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      },
+      {
+        "name": "actions_capability_audio_output",
+        "lifespan": 0,
+        "parameters": {
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      },
+      {
+        "name": "google_assistant_input_type_voice",
+        "lifespan": 0,
+        "parameters": {
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      },
+      {
+        "name": "__system_counters__",
+        "lifespan": 1,
+        "parameters": {
+          "no-input": 0,
+          "no-match": 0,
+          "given-name": "johnny",
+          "given-name.original": "johnny",
+          "phone-number": "5309211468",
+          "phone-number.original": "5309211468",
+          "last-name": "",
+          "last-name.original": ""
+        }
+      }
+    ],
+    "metadata": {
+      "intentId": "6b7a2103-b579-47b5-a1e1-1ed4b95e737e",
+      "intentName": "add-contact",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "isFallbackIntent": "false"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "lang": "en",
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    }
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "originalRequest": {
+    "data": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2020-01-30T19:56:44Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHETyoC4b-QahkTzMK8BMIIahDJrfgJCF119s3utR_issKMsSQuZSDANlgJXPyg2yL82fNbZPzM",
+        "type": "ACTIVE",
+        "conversationToken": "[\"__system_counters__\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "VOICE",
+              "query": "add johnny 5309211468"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "add johnny 5309211468",
+              "textValue": "add johnny 5309211468"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "requestType": "SIMULATOR"
+    },
+    "source": "google",
+    "version": "2"
+  }
+}

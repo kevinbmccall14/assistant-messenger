@@ -1,0 +1,92 @@
+{
+  "id": "83ee9ed3-1afd-49c2-a64d-f9fd2b473331-426bc00a",
+  "lang": "en",
+  "sessionId": "ABwppHHG1L2ecSho_epKz038sOIEfWfmYM2VeZScCmJRlrUcH3eGi_UQbOpwdLFarIcfJuy5DQW2FiI",
+  "timestamp": "2020-01-30T17:12:48.878Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Tell Chloe everything will be alright",
+    "action": "send-text",
+    "actionIncomplete": false,
+    "score": 0.78398544,
+    "parameters": {
+      "any": "everything will be alright",
+      "given-name": "Chloe"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "3d73c16d-5de2-4301-93d6-683c18e702d9",
+      "intentName": "send-text",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "isFallbackIntent": "false"
+    },
+    "fulfillment": {
+      "speech": "Sent everything will be alright to Chloe",
+      "messages": [
+        {
+          "lang": "en",
+          "type": 0,
+          "speech": "Sent everything will be alright to Chloe"
+        }
+      ]
+    }
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "originalRequest": {
+    "data": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2020-01-30T17:12:28Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHG1L2ecSho_epKz038sOIEfWfmYM2VeZScCmJRlrUcH3eGi_UQbOpwdLFarIcfJuy5DQW2FiI",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "VOICE",
+              "query": "Tell Chloe everything will be alright"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "Tell Chloe everything will be alright",
+              "textValue": "Tell Chloe everything will be alright"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "requestType": "SIMULATOR"
+    },
+    "source": "google",
+    "version": "2"
+  }
+}
